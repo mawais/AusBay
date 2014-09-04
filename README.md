@@ -1,11 +1,20 @@
-ITA
-===
-Ausbay.com is web site like ebay.
-It works same as ebay.
-Upload items for bid or sale now.
-It compare the bidding price and store for starting to ending time for bidding items.
-I used php for major scripts , css3,html,smarty for templates.Js for security. Mysql for data bases.
-Each item has bidding time after the will expir it will be automatically remove from item list.
-You can bid item ,and owner of the item can change item price modify , add or delete item from list of items.
-You can search item by catagories, by item name etc.
-The main aim for this project open sourcing to improve coding and it is free to use it .
+AusBay.com is free  bidding web site . It works same as ebay. But not in advance. The aim of this simple website to add items for bid or sale or buy item from there..i am going to opensource all of my code for free to use and improve it or modify it if you think .
+
+....................................................................................
+About  ausbay.com
+
+
+Modified specification to put "add new item" form on home page to fill page
+and avoid an unnecessary link.
+Extended specification to make category a link on "item details" page.
+After deleting an item, displays list of items in category of deleted item.
+Validates that item name, category, vendor and price are nonempty,
+and that price is a positive number.  Description may be empty.
+Trims search terms.
+Santises all user input (but does not restrict length).
+The implementation sometimes uses $item (resp., $category) as an object
+and sometimes as the id of that object.  Be careful.
+Although the specification does not require this, the interface would be
+improved if there were a navigation element to search for items and add
+a new item on every page.
+This is all the documentation there is.
